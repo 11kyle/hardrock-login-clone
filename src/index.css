@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .label-animation {
+    @apply peer-focus:-translate-y-9 peer-focus:scale-90 peer-valid:-translate-y-9 peer-valid:scale-90;
+  }
+  
+}
